@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CategoryNote.cs" />
+    <Compile Include="NoteCategory.cs" />
     <Compile Include="ListNotes.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="ProjectManager.cs" />
