@@ -63,6 +63,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -91,6 +94,18 @@
       <Project>{6c93863e-16b2-4a9b-ba8d-9af4d9fa86af}</Project>
       <Name>Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resurs\Vo7sRwTAnjI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resurs\0Cpc8O25NDQ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resurs\zsjUDn2dmtc.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
