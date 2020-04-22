@@ -9,6 +9,7 @@ using NUnit.Framework;
 
 namespace ProjectTests
 {
+    //TODO: название файла не совпадает с именем класса
     [TestFixture]
     internal class ProjectManagerTest
     {

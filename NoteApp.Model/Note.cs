@@ -8,6 +8,7 @@ namespace NoteApp.Model
     /// </summary>
     public class Note
     {
+        //TODO: xml у каждого поля
         private string _name = "Без имени";
         private NoteCategory _category;
         private string _text;

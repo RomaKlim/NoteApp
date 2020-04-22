@@ -7,6 +7,8 @@ namespace NoteApp.Model
     /// </summary>
     public static class ProjectManager
     {
+        //TODO: xml
+        //TODO: неправильное именование
         public static void Serializer(Project project, string path)
         {
             //Создаём экземпляр сериализатора
@@ -19,7 +21,9 @@ namespace NoteApp.Model
                 serializer.Serialize(writer, project);
             }
         }
-        
+
+        //TODO: xml
+        //TODO: неправильное именование
         public static Project Deserializer(string path)
         {
             //Создаём переменную, в которую поместим результат десериализации

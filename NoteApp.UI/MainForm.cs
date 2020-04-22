@@ -5,6 +5,8 @@ using NoteApp.Model;
 
 namespace NoteApp.UI
 {
+    //TODO: в репозитории лежат еще куча левых папок. Оставить только то, что нужно
+    //TODO: в проекте нет автоматической сборки установщика
     /// <summary>
     /// Главная форма.
     /// </summary>
@@ -79,6 +81,7 @@ namespace NoteApp.UI
             return selectedNote;
         }
 
+        //TODO: интерфейс - слишком общее слово. Заменить на форму
         /// <summary>
         /// Отчищение интерфейса.
         /// </summary>
@@ -93,7 +96,7 @@ namespace NoteApp.UI
             _project.CurrentNote = -1;
             ProjectManager.Serializer(_project, path);
         }
-
+        //TODO: не write, а обновить, не интерфейс, а форму
         /// <summary>
         /// Заполнение интерфейса.
         /// </summary>

@@ -3,11 +3,14 @@ using System.Windows.Forms;
 using NoteApp.Model;
 namespace NoteApp.UI
 {
+    //TODO: убрать глаголы из названия
     /// <summary>
     /// Форма для работы с текущей заметкой.
     /// </summary>
     public partial class AddEditNoteForm : Form
     {
+        //TODO: открытые поля это неправильно. должно быть свойство
+        //TODO: неправильное название. Почему new?
         public Note NewNote;
 
         /// <summary>
